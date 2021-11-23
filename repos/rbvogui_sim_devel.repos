@@ -5,11 +5,11 @@ repositories:
     version: v1.0.0
   src/rbvogui_common:
     type: git
-    url: https://github.com/RobotnikAutomation/rbvogui_common
-    version: 351da005f6b9552a677bfc65a13bfef62c758bce
+    url: https://github.com/TheConstructAi/rbvogui_common
+    version: 9452c94ae22ba1e2b6b8111ba9b7a538626d6aba
   src/rbvogui_sim:
     type: git
-    url: https://github.com/RobotnikAutomation/rbvogui_sim
+    url: https://github.com/TheConstructAi/rbvogui_sim
     version: 05cbdbc3850c733744cefa6a7177ddb7f3838485
   src/robotnik_msgs:
     type: git
