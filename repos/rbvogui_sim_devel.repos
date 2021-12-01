@@ -10,7 +10,7 @@ repositories:
   src/rbvogui_sim:
     type: git
     url: https://github.com/TheConstructAi/rbvogui_sim
-    version: 7feec58c78b0192ebb1f642e96bcd8a2f7b4f0ff
+    version: ffefd4b13d57e73139bce1f3de91dad4b6f23a01
   src/robotnik_msgs:
     type: git
     url: https://github.com/RobotnikAutomation/robotnik_msgs
