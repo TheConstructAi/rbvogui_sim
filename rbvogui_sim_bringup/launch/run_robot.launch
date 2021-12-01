@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <launch>
-
+  <!-- Variable to tell control to publish or not a TF for the odometry frame-->
+  <arg name="odom_tf_publish" default="true"/> 
   <!-- What simulator to use -->
   <arg name="simulation_package" default="$(optenv SIMULATION_CONFIG_PACKAGE rbvogui_gazebo)"/>
   <arg name="config_package" default="$(optenv CONFIG_PACKAGE rbvogui_gazebo)"/>
@@ -80,14 +81,13 @@
       <arg name="arm_model" value="$(arg arm_model)"/>
       <arg name="gripper_manufacturer" value="$(arg gripper_manufacturer)"/>
       <arg name="gripper_model" value="$(arg gripper_model)"/>
-      <!-- rbvogui sizes -->
       <arg if="$(eval arg('robot_model') == 'rbvogui')" name="wheel_diameter" value ="0.22" />
       <arg if="$(eval arg('robot_model') == 'rbvogui')" name="track_width" value ="0.439" />
       <arg if="$(eval arg('robot_model') == 'rbvogui')" name="wheel_base" value ="0.439" />
-      <!-- rbvogui xl sizes -->
       <arg if="$(eval arg('robot_model') == 'rbvogui_xl')" name="wheel_diameter" value ="0.36" />
       <arg if="$(eval arg('robot_model') == 'rbvogui_xl')" name="track_width" value ="0.585" />
       <arg if="$(eval arg('robot_model') == 'rbvogui_xl')" name="wheel_base" value ="0.959" />
+      <arg name="odom_tf_publish" value="$(arg odom_tf_publish)"/> 
     </include>
 
     <!-- pad: to do: add rbvogui pad into robotnik_pad as plugin -->
