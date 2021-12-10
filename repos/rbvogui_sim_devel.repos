@@ -49,8 +49,8 @@ repositories:
     version: 4c4e50b338cf72852d5a62424be5d6b3a2c49337
   src/rg2_gripper_common:
     type: git
-    url: https://github.com/RobotnikAutomation/rg2_gripper_common.git
-    version: 681336ae6f2c83de637668c7437438eca3c00859
+    url: https://github.com/TheConstructAi/rg2_gripper_common.git
+    version: 93d0e408e7c1d1be13ea6e282096cd595aa1df44
   src/roboticsgroup_gazebo_plugins:
     type: git
     url: https://github.com/roboticsgroup/roboticsgroup_gazebo_plugins
