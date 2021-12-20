@@ -6,7 +6,7 @@ repositories:
   src/rbvogui_common:
     type: git
     url: https://github.com/TheConstructAi/rbvogui_common
-    version: a8923568b093aa07fcd569b6dee9aea5cb0c33ea
+    version: 832d3761af36c4373dfbbc6a2b649b2c7a50e55f
   src/rbvogui_sim:
     type: git
     url: https://github.com/TheConstructAi/rbvogui_sim
